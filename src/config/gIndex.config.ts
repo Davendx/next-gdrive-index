@@ -40,7 +40,7 @@ const config: gIndexConfig = {
      * Then, copy the folder id and paste it here
      */
     rootFolder: "0AMaD586PnEH1Uk9PVA",
-    isTeamDrive: false, // Set this to true if you're using Team Drive
+    isTeamDrive: true, // Set this to true if you're using Team Drive
     defaultQuery: ["trashed = false", "(not mimeType contains 'google-apps' or mimeType contains 'folder')"],
     defaultField:
       "id, name, mimeType, thumbnailLink, fileExtension, modifiedTime, size, imageMediaMetadata, videoMediaMetadata, webContentLink, trashed",
